@@ -1,0 +1,10 @@
+STEPS:
+
+kernel infinite loop
+load kernel from asm
+init uart
+basic io
+organise (make)
+memory management
+file system
+drivers
