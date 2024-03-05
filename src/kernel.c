@@ -8,7 +8,7 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags)
     (void) atags;
 
     uart_init();
-    uart_puts("\tWELCOME!\r\n\r\n");
+    uart_puts("\r\n\tWELCOME!\r\n\r\n");
     uart_puts("I will take your text. Type anything :)\r\n\r\n");
 
     while (1)
