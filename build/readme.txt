@@ -1,0 +1,1 @@
+This directory contains the kernel.img file after successful build
