@@ -1,4 +1,4 @@
-# piOS
+====== piOS ======
 
 In an attempt to foster my knowledge on embedded systems, operating systems and low level programming with C and assembly(ARM), I'm cooking up this very basic operating system for raspberry pi zero.
 
@@ -9,5 +9,5 @@ This OS so far just loads a very basic kernel which initialises UART and handles
 HOW TO BUILD:
 ```make```
 
-HOW TO RUN(on QEMU):
+HOW TO RUN(with QEMU):
 ```make run```
