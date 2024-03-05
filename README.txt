@@ -9,5 +9,5 @@ This OS so far just loads a very basic kernel which initialises UART and handles
 HOW TO BUILD:
 ```make```
 
-HOW TO RUN:
+HOW TO RUN(on QEMU):
 ```make run```
