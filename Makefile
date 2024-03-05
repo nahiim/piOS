@@ -32,4 +32,4 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.S
 	$(CC) $(CFLAGS) -Iinclude -c $< -o $@
 
 run: build
-	cmd /k start qemu-system-arm -m 512 -M raspi0 -serial stdio -kernel $(TARGET)
+	qemu-system-arm -m 512 -M raspi0 -serial stdio -kernel $(TARGET)
