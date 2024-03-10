@@ -8,6 +8,7 @@ This OS so far just loads a very basic kernel which initialises UART and handles
 
 HOW TO BUILD:
 ```make```
+If all goes well, the kernel.img file will be generated in the "build" directory.
 
 HOW TO RUN(with QEMU):
 ```make run```
